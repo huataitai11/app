@@ -1,0 +1,11 @@
+
+.status_bar[data-v-57280228] {
+	        height: 6.25rem;
+	        width: 100%;
+			line-height: 6.25rem;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+}
+	

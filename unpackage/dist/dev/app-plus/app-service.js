@@ -35,23 +35,55 @@ if (uni.restoreGlobal) {
     }
     return target;
   };
-  const _sfc_main$1 = {
+  const _sfc_main$4 = {
     data() {
-      return {
-        title: "Hello"
-      };
+      return {};
     },
     onLoad() {
     },
     methods: {}
   };
-  function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "index" }, [
-      vue.createElementVNode("view", { class: "filter-active-color" }, " \u6587\u5B57 ")
+      vue.createElementVNode("view", { class: "filter-active-color" }, " \u6587\u5B57 "),
+      vue.createElementVNode("view", { class: "iconfont icon-xiaoxi" }, " 1111 ")
     ]);
   }
-  var PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "D:/\u524D\u7AEF\u9879\u76EE/uni-app/app/pages/index/index.vue"]]);
+  var PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-57280228"], ["__file", "D:/\u524D\u7AEF\u9879\u76EE/uni-app/app/pages/index/index.vue"]]);
+  const _sfc_main$3 = {
+    data() {
+      return {};
+    },
+    methods: {}
+  };
+  function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, " \u5206\u7C7B ");
+  }
+  var PagesListList = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__file", "D:/\u524D\u7AEF\u9879\u76EE/uni-app/app/pages/list/list.vue"]]);
+  const _sfc_main$2 = {
+    data() {
+      return {};
+    },
+    methods: {}
+  };
+  function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, " \u8D2D\u7269\u8F66 ");
+  }
+  var PagesShopcardShopcard = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["render", _sfc_render$1], ["__file", "D:/\u524D\u7AEF\u9879\u76EE/uni-app/app/pages/shopcard/shopcard.vue"]]);
+  const _sfc_main$1 = {
+    data() {
+      return {};
+    },
+    methods: {}
+  };
+  function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+    return vue.openBlock(), vue.createElementBlock("view", null, " \u6211\u7684 ");
+  }
+  var PagesMyMy = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "D:/\u524D\u7AEF\u9879\u76EE/uni-app/app/pages/my/my.vue"]]);
   __definePage("pages/index/index", PagesIndexIndex);
+  __definePage("pages/list/list", PagesListList);
+  __definePage("pages/shopcard/shopcard", PagesShopcardShopcard);
+  __definePage("pages/my/my", PagesMyMy);
   function formatAppLog(type, filename, ...args) {
     if (uni.__log__) {
       uni.__log__(type, filename, ...args);
